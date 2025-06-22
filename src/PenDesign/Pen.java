@@ -1,4 +1,4 @@
-
+package PenDesign;
 
 
 public abstract class Pen {
@@ -30,7 +30,7 @@ public abstract class Pen {
 
     @Override
      public void write() {
-        System.out.println("BallPen is Written : " + brand);
+        System.out.println("PenDesign.BallPen is Written : " + brand);
     }
 
 }
@@ -41,7 +41,7 @@ class FoundainPen extends Pen {
 
     @Override
     public void write() {
-        System.out.println("FoundainPen is Written : " + brand);
+        System.out.println("PenDesign.FoundainPen is Written : " + brand);
     }
 }
 class GelPen extends Pen {
@@ -51,7 +51,7 @@ class GelPen extends Pen {
 
     @Override
     public void write() {
-        System.out.println("GelPen is Writting Smoothly :" + brand);
+        System.out.println("PenDesign.GelPen is Writting Smoothly :" + brand);
     }
 }
 
